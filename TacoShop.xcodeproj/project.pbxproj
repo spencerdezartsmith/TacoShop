@@ -8,12 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		1B1367741E52411800A01532 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B1367731E52411800A01532 /* AppDelegate.swift */; };
-		1B1367761E52411800A01532 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B1367751E52411800A01532 /* ViewController.swift */; };
 		1B1367791E52411800A01532 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1B1367771E52411800A01532 /* Main.storyboard */; };
 		1B13677B1E52411800A01532 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1B13677A1E52411800A01532 /* Assets.xcassets */; };
 		1B13677E1E52411800A01532 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1B13677C1E52411800A01532 /* LaunchScreen.storyboard */; };
 		1B1367891E52411800A01532 /* TacoShopTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B1367881E52411800A01532 /* TacoShopTests.swift */; };
 		1B1367941E52411800A01532 /* TacoShopUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B1367931E52411800A01532 /* TacoShopUITests.swift */; };
+		1B1367A81E52458F00A01532 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B1367A71E52458F00A01532 /* MainViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +36,6 @@
 /* Begin PBXFileReference section */
 		1B1367701E52411800A01532 /* TacoShop.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TacoShop.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1B1367731E52411800A01532 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		1B1367751E52411800A01532 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		1B1367781E52411800A01532 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1B13677A1E52411800A01532 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1B13677D1E52411800A01532 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +46,7 @@
 		1B13678F1E52411800A01532 /* TacoShopUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TacoShopUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1B1367931E52411800A01532 /* TacoShopUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TacoShopUITests.swift; sourceTree = "<group>"; };
 		1B1367951E52411800A01532 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1B1367A71E52458F00A01532 /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,12 +97,12 @@
 		1B1367721E52411800A01532 /* TacoShop */ = {
 			isa = PBXGroup;
 			children = (
-				1B1367731E52411800A01532 /* AppDelegate.swift */,
-				1B1367751E52411800A01532 /* ViewController.swift */,
-				1B1367771E52411800A01532 /* Main.storyboard */,
-				1B13677A1E52411800A01532 /* Assets.xcassets */,
-				1B13677C1E52411800A01532 /* LaunchScreen.storyboard */,
-				1B13677F1E52411800A01532 /* Info.plist */,
+				1B1367A61E52417400A01532 /* Extensions */,
+				1B1367A51E52416C00A01532 /* Protocols */,
+				1B1367A41E52415100A01532 /* Resources */,
+				1B1367A31E52414700A01532 /* Model */,
+				1B1367A21E52413B00A01532 /* Controller */,
+				1B1367A11E52413600A01532 /* View */,
 			);
 			path = TacoShop;
 			sourceTree = "<group>";
@@ -123,6 +123,54 @@
 				1B1367951E52411800A01532 /* Info.plist */,
 			);
 			path = TacoShopUITests;
+			sourceTree = "<group>";
+		};
+		1B1367A11E52413600A01532 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				1B1367771E52411800A01532 /* Main.storyboard */,
+				1B13677C1E52411800A01532 /* LaunchScreen.storyboard */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		1B1367A21E52413B00A01532 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				1B1367731E52411800A01532 /* AppDelegate.swift */,
+				1B1367A71E52458F00A01532 /* MainViewController.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		1B1367A31E52414700A01532 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		1B1367A41E52415100A01532 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				1B13677A1E52411800A01532 /* Assets.xcassets */,
+				1B13677F1E52411800A01532 /* Info.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		1B1367A51E52416C00A01532 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Protocols;
+			sourceTree = "<group>";
+		};
+		1B1367A61E52417400A01532 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -262,8 +310,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1B1367761E52411800A01532 /* ViewController.swift in Sources */,
 				1B1367741E52411800A01532 /* AppDelegate.swift in Sources */,
+				1B1367A81E52458F00A01532 /* MainViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
