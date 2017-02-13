@@ -17,6 +17,9 @@
 		1B1367AA1E52553700A01532 /* TacoPOPData.csv in Resources */ = {isa = PBXBuildFile; fileRef = 1B1367A91E52553700A01532 /* TacoPOPData.csv */; };
 		1B1367AC1E52579C00A01532 /* DropShadow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B1367AB1E52579C00A01532 /* DropShadow.swift */; };
 		1B1367AE1E5258CB00A01532 /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B1367AD1E5258CB00A01532 /* HeaderView.swift */; };
+		1B1367B01E525FFF00A01532 /* Taco.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B1367AF1E525FFF00A01532 /* Taco.swift */; };
+		1B1367B21E5268CC00A01532 /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B1367B11E5268CC00A01532 /* DataService.swift */; };
+		1B1367B41E526A4900A01532 /* csv.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B1367B31E526A4900A01532 /* csv.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +56,9 @@
 		1B1367A91E52553700A01532 /* TacoPOPData.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = TacoPOPData.csv; sourceTree = "<group>"; };
 		1B1367AB1E52579C00A01532 /* DropShadow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DropShadow.swift; sourceTree = "<group>"; };
 		1B1367AD1E5258CB00A01532 /* HeaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
+		1B1367AF1E525FFF00A01532 /* Taco.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Taco.swift; sourceTree = "<group>"; };
+		1B1367B11E5268CC00A01532 /* DataService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
+		1B1367B31E526A4900A01532 /* csv.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = csv.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -153,6 +159,8 @@
 		1B1367A31E52414700A01532 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				1B1367AF1E525FFF00A01532 /* Taco.swift */,
+				1B1367B11E5268CC00A01532 /* DataService.swift */,
 			);
 			name = Model;
 			sourceTree = "<group>";
@@ -161,6 +169,7 @@
 			isa = PBXGroup;
 			children = (
 				1B1367A91E52553700A01532 /* TacoPOPData.csv */,
+				1B1367B31E526A4900A01532 /* csv.swift */,
 				1B13677A1E52411800A01532 /* Assets.xcassets */,
 				1B13677F1E52411800A01532 /* Info.plist */,
 			);
@@ -251,17 +260,20 @@
 					1B13676F1E52411800A01532 = {
 						CreatedOnToolsVersion = 8.2.1;
 						DevelopmentTeam = 98E627NAQV;
+						LastSwiftMigration = 0820;
 						ProvisioningStyle = Automatic;
 					};
 					1B1367831E52411800A01532 = {
 						CreatedOnToolsVersion = 8.2.1;
 						DevelopmentTeam = 98E627NAQV;
+						LastSwiftMigration = 0820;
 						ProvisioningStyle = Automatic;
 						TestTargetID = 1B13676F1E52411800A01532;
 					};
 					1B13678E1E52411800A01532 = {
 						CreatedOnToolsVersion = 8.2.1;
 						DevelopmentTeam = 98E627NAQV;
+						LastSwiftMigration = 0820;
 						ProvisioningStyle = Automatic;
 						TestTargetID = 1B13676F1E52411800A01532;
 					};
@@ -321,8 +333,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				1B1367741E52411800A01532 /* AppDelegate.swift in Sources */,
+				1B1367B41E526A4900A01532 /* csv.swift in Sources */,
 				1B1367AC1E52579C00A01532 /* DropShadow.swift in Sources */,
 				1B1367A81E52458F00A01532 /* MainViewController.swift in Sources */,
+				1B1367B21E5268CC00A01532 /* DataService.swift in Sources */,
+				1B1367B01E525FFF00A01532 /* Taco.swift in Sources */,
 				1B1367AE1E5258CB00A01532 /* HeaderView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
