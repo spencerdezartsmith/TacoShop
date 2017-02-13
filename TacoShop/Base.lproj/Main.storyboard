@@ -23,9 +23,20 @@
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="SH3-l8-1tB">
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="80"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <subviews>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Taco-Shop" translatesAutoresizingMaskIntoConstraints="NO" id="Svy-OK-3xv">
+                                        <rect key="frame" x="75" y="8" width="225" height="72"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="72" id="Rig-YN-dks"/>
+                                        </constraints>
+                                    </imageView>
+                                </subviews>
+                                <color key="backgroundColor" red="0.71287071704864502" green="0.86193537712097168" blue="0.93734711408615112" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="80" id="J3z-Lu-nLu"/>
+                                    <constraint firstItem="Svy-OK-3xv" firstAttribute="top" secondItem="SH3-l8-1tB" secondAttribute="top" constant="8" id="o7l-qa-CJH"/>
+                                    <constraint firstItem="Svy-OK-3xv" firstAttribute="leading" secondItem="SH3-l8-1tB" secondAttribute="leading" constant="75" id="r1E-Sz-cbB"/>
+                                    <constraint firstAttribute="trailing" secondItem="Svy-OK-3xv" secondAttribute="trailing" constant="75" id="uor-bg-tKK"/>
                                 </constraints>
                             </view>
                         </subviews>
@@ -42,4 +53,7 @@
             <point key="canvasLocation" x="136.80000000000001" y="138.98050974512745"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="Taco-Shop" width="256" height="103"/>
+    </resources>
 </document>
