@@ -8,8 +8,14 @@
 
 import Foundation
 
+protocol DataServiceDelegate: class {
+    func deliciousTacoDataLoaded()
+}
+
 class DataService {
     static let instance = DataService()
+    
+    weak var delegate: DataServiceDelegate?
     
     var tacoArray: Array<Taco> = []
     
@@ -31,5 +37,7 @@ class DataService {
             
             print(error.debugDescription)
         }
+        
+        delegate?.deliciousTacoDataLoaded()
     }
 }
