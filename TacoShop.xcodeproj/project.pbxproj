@@ -15,6 +15,8 @@
 		1B1367941E52411800A01532 /* TacoShopUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B1367931E52411800A01532 /* TacoShopUITests.swift */; };
 		1B1367A81E52458F00A01532 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B1367A71E52458F00A01532 /* MainViewController.swift */; };
 		1B1367AA1E52553700A01532 /* TacoPOPData.csv in Resources */ = {isa = PBXBuildFile; fileRef = 1B1367A91E52553700A01532 /* TacoPOPData.csv */; };
+		1B1367AC1E52579C00A01532 /* DropShadow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B1367AB1E52579C00A01532 /* DropShadow.swift */; };
+		1B1367AE1E5258CB00A01532 /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B1367AD1E5258CB00A01532 /* HeaderView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		1B1367951E52411800A01532 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1B1367A71E52458F00A01532 /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		1B1367A91E52553700A01532 /* TacoPOPData.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = TacoPOPData.csv; sourceTree = "<group>"; };
+		1B1367AB1E52579C00A01532 /* DropShadow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DropShadow.swift; sourceTree = "<group>"; };
+		1B1367AD1E5258CB00A01532 /* HeaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -132,6 +136,7 @@
 			children = (
 				1B1367771E52411800A01532 /* Main.storyboard */,
 				1B13677C1E52411800A01532 /* LaunchScreen.storyboard */,
+				1B1367AD1E5258CB00A01532 /* HeaderView.swift */,
 			);
 			name = View;
 			sourceTree = "<group>";
@@ -165,6 +170,7 @@
 		1B1367A51E52416C00A01532 /* Protocols */ = {
 			isa = PBXGroup;
 			children = (
+				1B1367AB1E52579C00A01532 /* DropShadow.swift */,
 			);
 			name = Protocols;
 			sourceTree = "<group>";
@@ -315,7 +321,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				1B1367741E52411800A01532 /* AppDelegate.swift in Sources */,
+				1B1367AC1E52579C00A01532 /* DropShadow.swift in Sources */,
 				1B1367A81E52458F00A01532 /* MainViewController.swift in Sources */,
+				1B1367AE1E5258CB00A01532 /* HeaderView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
