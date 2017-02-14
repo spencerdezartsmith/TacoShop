@@ -24,6 +24,8 @@ class MainViewController: UIViewController, DataServiceDelegate {
         dataService.delegate = self
         dataService.parseTacoDataCSV()
         
+        collection.register(TacoViewCell.self)
+        
         header.addDropShadow()
     }
     
@@ -42,20 +44,14 @@ extension MainViewController: UICollectionViewDelegate, UICollectionViewDataSour
         return 1
     }
     
-    func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
+    func collectionView(_ collectionView:
+        UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
         
-        if let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "TacoViewCell", for: indexPath) as? TacoViewCell {
-            
-            let taco: Taco!
-            
-            taco = dataService.tacoArray[indexPath.row]
-            
-            cell.configueCell(taco: taco)
-            
-            return cell
-        }
+        let cell = collectionView.dequeueReuseableCell(forIndexPath: indexPath) as TacoViewCell
         
-        return UICollectionViewCell()
+        cell.configueCell(taco: dataService.tacoArray[indexPath.row])
+        
+        return cell
     }
     
     func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
