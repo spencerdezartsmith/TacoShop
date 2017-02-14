@@ -22,6 +22,9 @@
 		1B1367B41E526A4900A01532 /* csv.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B1367B31E526A4900A01532 /* csv.swift */; };
 		1B1367B71E5279DB00A01532 /* TacoViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B1367B51E5279DB00A01532 /* TacoViewCell.swift */; };
 		1B1367B81E5279DB00A01532 /* TacoViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1B1367B61E5279DB00A01532 /* TacoViewCell.xib */; };
+		1B1367BE1E53875F00A01532 /* ReuseableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B1367BD1E53875F00A01532 /* ReuseableView.swift */; };
+		1B1367C01E53887100A01532 /* NibLoadableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B1367BF1E53887100A01532 /* NibLoadableView.swift */; };
+		1B1367C21E53892400A01532 /* UICollectionView+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B1367C11E53892400A01532 /* UICollectionView+Ext.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,6 +66,9 @@
 		1B1367B31E526A4900A01532 /* csv.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = csv.swift; sourceTree = "<group>"; };
 		1B1367B51E5279DB00A01532 /* TacoViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TacoViewCell.swift; sourceTree = "<group>"; };
 		1B1367B61E5279DB00A01532 /* TacoViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TacoViewCell.xib; sourceTree = "<group>"; };
+		1B1367BD1E53875F00A01532 /* ReuseableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReuseableView.swift; sourceTree = "<group>"; };
+		1B1367BF1E53887100A01532 /* NibLoadableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NibLoadableView.swift; sourceTree = "<group>"; };
+		1B1367C11E53892400A01532 /* UICollectionView+Ext.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UICollectionView+Ext.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -186,6 +192,8 @@
 			isa = PBXGroup;
 			children = (
 				1B1367AB1E52579C00A01532 /* DropShadow.swift */,
+				1B1367BD1E53875F00A01532 /* ReuseableView.swift */,
+				1B1367BF1E53887100A01532 /* NibLoadableView.swift */,
 			);
 			name = Protocols;
 			sourceTree = "<group>";
@@ -193,6 +201,7 @@
 		1B1367A61E52417400A01532 /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
+				1B1367C11E53892400A01532 /* UICollectionView+Ext.swift */,
 			);
 			name = Extensions;
 			sourceTree = "<group>";
@@ -344,8 +353,11 @@
 				1B1367AC1E52579C00A01532 /* DropShadow.swift in Sources */,
 				1B1367A81E52458F00A01532 /* MainViewController.swift in Sources */,
 				1B1367B21E5268CC00A01532 /* DataService.swift in Sources */,
+				1B1367C21E53892400A01532 /* UICollectionView+Ext.swift in Sources */,
 				1B1367B01E525FFF00A01532 /* Taco.swift in Sources */,
+				1B1367C01E53887100A01532 /* NibLoadableView.swift in Sources */,
 				1B1367AE1E5258CB00A01532 /* HeaderView.swift in Sources */,
+				1B1367BE1E53875F00A01532 /* ReuseableView.swift in Sources */,
 				1B1367B71E5279DB00A01532 /* TacoViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
