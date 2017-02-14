@@ -32,6 +32,7 @@ class MainViewController: UIViewController, DataServiceDelegate {
     
     func deliciousTacoDataLoaded() {
         print("Taco data is loaded!")
+        collection.reloadData()
     }
 }
 
