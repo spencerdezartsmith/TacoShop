@@ -8,13 +8,21 @@
 
 import UIKit
 
-class MainViewController: UIViewController {
+class MainViewController: UIViewController, DataServiceDelegate {
     
     @IBOutlet weak var header: HeaderView!
+    @IBOutlet weak var collection: UICollectionView!
+    
+    var dataService = DataService.instance
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        
+    
         header.addDropShadow()
     }
+    
+    func deliciousTacoDataLoaded() {
+        print("Taco data is loaded!")
+    }
+
 }
