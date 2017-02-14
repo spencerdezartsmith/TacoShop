@@ -39,6 +39,10 @@
                 <constraint firstItem="sFn-Oq-Vgd" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="uCQ-jJ-VIq"/>
             </constraints>
             <size key="customSize" width="121" height="123"/>
+            <connections>
+                <outlet property="tacoImage" destination="sFn-Oq-Vgd" id="PA1-Zo-Mce"/>
+                <outlet property="tacoLabel" destination="lLQ-Xb-nXy" id="ph4-qx-Dtv"/>
+            </connections>
             <point key="canvasLocation" x="69.5" y="90.5"/>
         </collectionViewCell>
     </objects>
