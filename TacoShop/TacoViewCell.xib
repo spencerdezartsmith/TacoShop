@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11762" systemVersion="16D32" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina5_5" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="gTV-IL-0wX" customClass="TacoViewCell" customModule="TacoShop" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="121" height="123"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="121" height="123"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="749" image="Brisket" translatesAutoresizingMaskIntoConstraints="NO" id="sFn-Oq-Vgd">
+                        <rect key="frame" x="0.0" y="0.0" width="121" height="89.666666666666671"/>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Brisket Taco" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lLQ-Xb-nXy">
+                        <rect key="frame" x="0.0" y="94.666666666666686" width="121" height="23.333333333333329"/>
+                        <fontDescription key="fontDescription" name="AvenirNext-Medium" family="Avenir Next" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+            </view>
+            <constraints>
+                <constraint firstItem="sFn-Oq-Vgd" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="2i2-M6-fu4"/>
+                <constraint firstItem="lLQ-Xb-nXy" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="4r5-Jt-xOR"/>
+                <constraint firstAttribute="bottom" secondItem="lLQ-Xb-nXy" secondAttribute="bottom" constant="5" id="4uC-yu-Ii2"/>
+                <constraint firstAttribute="trailing" secondItem="lLQ-Xb-nXy" secondAttribute="trailing" id="GFp-Ao-sSh"/>
+                <constraint firstAttribute="trailing" secondItem="sFn-Oq-Vgd" secondAttribute="trailing" id="LCx-cT-q1l"/>
+                <constraint firstItem="lLQ-Xb-nXy" firstAttribute="top" secondItem="sFn-Oq-Vgd" secondAttribute="bottom" constant="5" id="qsi-pI-HYr"/>
+                <constraint firstItem="sFn-Oq-Vgd" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="uCQ-jJ-VIq"/>
+            </constraints>
+            <size key="customSize" width="121" height="123"/>
+            <point key="canvasLocation" x="69.5" y="90.5"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="Brisket" width="1024" height="678"/>
+    </resources>
+</document>
