@@ -25,6 +25,7 @@
 		1B1367BE1E53875F00A01532 /* ReuseableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B1367BD1E53875F00A01532 /* ReuseableView.swift */; };
 		1B1367C01E53887100A01532 /* NibLoadableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B1367BF1E53887100A01532 /* NibLoadableView.swift */; };
 		1B1367C21E53892400A01532 /* UICollectionView+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B1367C11E53892400A01532 /* UICollectionView+Ext.swift */; };
+		1B1367C41E539B4D00A01532 /* MutableCollection+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B1367C31E539B4D00A01532 /* MutableCollection+Ext.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -69,6 +70,7 @@
 		1B1367BD1E53875F00A01532 /* ReuseableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReuseableView.swift; sourceTree = "<group>"; };
 		1B1367BF1E53887100A01532 /* NibLoadableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NibLoadableView.swift; sourceTree = "<group>"; };
 		1B1367C11E53892400A01532 /* UICollectionView+Ext.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UICollectionView+Ext.swift"; sourceTree = "<group>"; };
+		1B1367C31E539B4D00A01532 /* MutableCollection+Ext.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "MutableCollection+Ext.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -202,6 +204,7 @@
 			isa = PBXGroup;
 			children = (
 				1B1367C11E53892400A01532 /* UICollectionView+Ext.swift */,
+				1B1367C31E539B4D00A01532 /* MutableCollection+Ext.swift */,
 			);
 			name = Extensions;
 			sourceTree = "<group>";
@@ -348,6 +351,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1B1367C41E539B4D00A01532 /* MutableCollection+Ext.swift in Sources */,
 				1B1367741E52411800A01532 /* AppDelegate.swift in Sources */,
 				1B1367B41E526A4900A01532 /* csv.swift in Sources */,
 				1B1367AC1E52579C00A01532 /* DropShadow.swift in Sources */,

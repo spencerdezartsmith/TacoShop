@@ -23,6 +23,7 @@ class MainViewController: UIViewController, DataServiceDelegate {
         
         dataService.delegate = self
         dataService.parseTacoDataCSV()
+        dataService.tacoArray.shuffle()
         
         collection.register(TacoViewCell.self)
         

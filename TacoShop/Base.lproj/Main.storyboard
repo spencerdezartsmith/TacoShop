@@ -42,7 +42,7 @@
                                 </constraints>
                             </view>
                             <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="4uq-0j-OE5">
-                                <rect key="frame" x="20" y="100" width="374" height="616"/>
+                                <rect key="frame" x="20" y="120" width="374" height="596"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="aMe-c8-QMM">
                                     <size key="itemSize" width="50" height="50"/>
@@ -61,7 +61,7 @@
                             <constraint firstItem="4uq-0j-OE5" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="ZsE-ip-9oa"/>
                             <constraint firstAttribute="trailingMargin" secondItem="4uq-0j-OE5" secondAttribute="trailing" id="bvA-Xn-3a2"/>
                             <constraint firstItem="SH3-l8-1tB" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="nrf-9r-D4P"/>
-                            <constraint firstItem="4uq-0j-OE5" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="80" id="zVA-Oa-Zep"/>
+                            <constraint firstItem="4uq-0j-OE5" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="100" id="zVA-Oa-Zep"/>
                         </constraints>
                     </view>
                     <connections>
